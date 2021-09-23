@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack</title>
+    
+</head>
+  </head>
+  <body>
+    <h1 id="id1">Topping</h1>
+    <h1 id="heading"></h1>
+  <ul id="myList">
+    <li class="list-item>One "></li>
+    <li id="lettuce" class="green list-item">Lettuce</li>
+    <li id="tomato" class="red list-item">Tomato</li>
+    <li id="cheese" class="yellow list-item">Cheese</li>
+    <li id="burger">Burger</li>
+  </ul>
+  <p>Click the button to append an item to the end of the list.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var node = document.createElement("lI");
+  var textnode = document.createTextNode("fries");
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
+}
+</script>
+
+
+  </body>
+</html>
